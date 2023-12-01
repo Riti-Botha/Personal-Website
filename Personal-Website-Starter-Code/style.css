@@ -12,10 +12,16 @@ main{
   margin-left: 0%;
 }
  
+#nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* STYLE SECTIONING TAGS */
 body {
- background-color: #BCED91	; 
+ background-color: #b697f0	; 
   text-align: center;
 }
 
@@ -23,7 +29,7 @@ body {
 
 header {
   color: white;
-  background-image: linear-gradient(mediumpurple, white);
+  background-image: linear-gradient(#b697f0, white);
   text-align: center;
   font-family: Impact, fantasy;
 }
@@ -59,7 +65,7 @@ img{
   max-width: 30%;
   border-radius: 5%;
   margin-bottom: 2em;
-  border: 4px solid #95b85e;
+  border: 4px solid ##b697f0;
   margin-top: 1em;
 }
 
@@ -71,7 +77,7 @@ h1{ font-size: 2.2em;
   color: black;
   padding: 0px;
   margin: 0px;
-  background-color: mediumpurple;
+  background-color: #b697f0;
 
 
   }
@@ -80,7 +86,7 @@ h1{ font-size: 2.2em;
 
   border-radius: 0%;
   margin-bottom: 2em;
-  border: 4px solid mediumpurple;
+  border: 4px solid #b697f0;
   margin-top: 1em; 
 }
 
@@ -88,12 +94,10 @@ h1{ font-size: 2.2em;
     color: white;
   font-size: 10em;
 }
-/* STYLE NAV BAR */
 
 ul {
   list-style-type: none;
   background-color: white;
-  owerflow: hidden;
   padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -107,7 +111,7 @@ li a {
   color: black;
   font-size: 1.3em;
   padding: 1em;
-  text-shadow: 1px 1px #BCED91;
+  text-shadow: 1px 1px #b697f0;
 }
 
 li a:hover {
